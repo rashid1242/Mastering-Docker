@@ -107,7 +107,7 @@ ADD  style.css /var/www/html
 ADD https://releases.hashicorp.com/terraform/1.9.0/terraform_1.9.0_linux_amd64.zip /var/www/html
 ```
 
-These commands add files from the host machine or a URL to the container. The first command adds `style.css` to `/var/www/html`, and the second downloads and adds a file from a URL.
+These commands add files from the host machine or a URL to the container. The first command adds `style.css` to `/var/www/html`, and the second downloads and adds a file from a URL. or from s3 bucket or over the internet
 
 #### 9. `ARG`
 
